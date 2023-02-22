@@ -1,0 +1,43 @@
+.nav {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    align-content: center;
+}
+
+.logo {
+    font-size: 24px;
+    align-self: center;
+    margin-right: auto;
+}
+
+.links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+   
+}
+
+.links a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.links a:hover {
+    background-color: #ddd; 
+}
+
+.links li {
+    margin: 0 10px;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+  }
